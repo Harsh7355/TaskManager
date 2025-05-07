@@ -1,0 +1,6 @@
+/* Universal reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and borders are included in the total width/height */
+}

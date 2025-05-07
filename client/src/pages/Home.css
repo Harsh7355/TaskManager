@@ -1,0 +1,206 @@
+/* Overall Layout */
+.home-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2, h3, h4 {
+    color: #333;
+  }
+  
+  /* Welcome Section */
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  /* Project Creation Form */
+  .project-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .project-box h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form Elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add Task Button */
+  button[type="button"] {
+    background-color: #28a745;
+    color: white;
+    margin-top: 1rem;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Create Project Button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Projects List */
+  .projects-list {
+    margin-top: 2rem;
+  }
+  
+  .projects-list h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Project Card */
+  .project-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-item h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .project-item p {
+    color: #555;
+  }
+  
+  /* Task List in Project */
+  .project-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .project-item ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+  }
+  
+  /* Task Management Section */
+  .task-management h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 1rem;
+  }
+  
+  .task-item h5 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .task-item p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .task-item .flex {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-item button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Edit and Delete Buttons for Tasks */
+  .task-item .bg-yellow-500 {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .task-item .bg-yellow-500:hover {
+    background-color: #e67e22;
+  }
+  
+  .task-item .bg-red-500 {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .task-item .bg-red-500:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Disabled Create Project Button */
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

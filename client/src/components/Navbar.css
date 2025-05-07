@@ -1,0 +1,39 @@
+/* Navbar styles */
+.navbar {
+    background-color: #1e293b;
+    color: white;
+    margin: 0;
+    padding: 0 2rem; /* Adjust left and right padding */
+    display: flex;
+    justify-content: space-between; /* This makes space between the elements */
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    background-color: #ef4444;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-left: auto; /* This will push the logout button to the right */
+  }
+  
+  .logout-button:hover {
+    background-color: #dc2626;
+  }
+  
+  /* Additional styles for home page */
+  .home-page {
+    margin-top: 5rem; /* To make space for navbar */
+  }
+  
+  .home-content {
+    padding: 2rem;
+  }
+  
